@@ -369,3 +369,67 @@
 // 3. boolean
 // let isTodayMonday = ture;
 // Example = true & false 
+
+
+
+/////////////  chapter : 02  //////////////////
+
+// let data = "hello";
+// let data2 = " students";
+
+// let data3 = data + data2; // strings concatenation
+// console.log(data3);
+
+// num + num = addition
+// string + num = concatenation
+// num + string = concatenation
+// string + string = concatenation
+
+// let data = 5;
+// let data2 = 5;
+
+// let data3 = data + data2; // additions 
+// console.log(data3);
+
+// let data = "Hello Students";
+// let data2 = data.includes("Students");
+// console.log(data2);
+
+// let data = "5";
+// let data2 = 5 ;
+// console.log(+data + data2);
+// console.log(parseInt(data) + data2);
+// console.log(Number(data) + data2);
+
+// Math 0perator =  + - * / %  :
+
+// let num = 10;
+// let num2 = 5;
+// console.log(num + num2);
+// console.log(num - num2);
+// console.log(num * num2);
+// console.log(num / num2);
+// console.log(num % num2);
+
+// let userInput = prompt("What is your fav number ?");
+// console.log(userInput);
+
+// let userName = prompt("What is your Name ?");
+// console.log ( "My name is : " +  userName);
+
+// let randomNumber = Math.random();
+// // randomNumber = randomNumber * 10;
+// randomNumber *= 10; // short hand 
+// let roundNum = Math.round(randomNumber);
+// console.log(roundNum);
+
+// Bodmas = Brakets of, Divide , Multiply , Additions , Subtraction.
+
+// let num = (5 + 5) * (5 / 5);
+// console.log(num);
+
+// let num = 5 ** 2; // power or 5 square .
+// console.log(num);
+
+// let num1 = 5 ** 3; // power or 5 cube .
+// console.log(num1);
