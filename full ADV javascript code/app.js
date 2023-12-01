@@ -329,3 +329,43 @@
 // if (data) {
 //     console.log(data);
 // }
+
+
+//////////////////////////////// """ ( IB ) """ ///////////////////////////////////////
+/////////////  chapter : 01  //////////////////
+
+// let firstName =  "Asif"; // variable // var // let
+
+// variable rules
+// 1. Legal or illegal names
+// legal: 
+// let lastName // CamelCase
+// lastname
+// allowed special characters 
+// _ $ 
+// let $nameWith$Dollar = "";
+// let _nameWith_Dollar = "";
+// var cannot be start with a number 
+// let myName
+
+// Illegal :
+// let last name // spaces
+// let my#name
+
+// alert (firstName);
+
+// Data Types 
+
+// 1. String 
+
+//let firstName =  "Asif";
+// Example = "farrukh", "an apple", "#", "8", "email@test.com"
+// any letter, word or sentence is string in javascript.
+
+// 2. Number
+// let myNum = 8;
+// Example = 2, 3, 56, 78, 0, -12, -54 
+
+// 3. boolean
+// let isTodayMonday = ture;
+// Example = true & false 
