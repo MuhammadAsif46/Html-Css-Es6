@@ -771,3 +771,59 @@
 // };
 
 // localStorage.setItem("name","Asif");
+
+
+/////////////  chapter : 07  //////////////////
+
+// DOM  : manupulation 
+
+// let data =  document.getElementById("my-para");
+// data.innerText = "hello world";
+// console.log(data);
+
+// let data = document.querySelector("p");
+// data.innerHTML = "<b>Pakistan Zindabad</b>";
+// console.log(data);
+
+// let data = document.querySelector("p");
+// data.innerHTML = "<b>Pakistan Zindabad</b>";
+// data.style.backgroundColor = "black";
+// data.style.color = "white";
+
+// setInterval(function(){
+//     if (data.style.display === "none"){
+//     data.style.display = "block";
+//     }else{
+//         data.style.display = "none";
+//     }
+
+// },1000);
+
+// let data1 = document.querySelector("#your-para");
+// data1.innerHTML = "<b>Pakistan Zindabad</b>";
+// data1.style.backgroundColor = "black";
+// data1.style.color = "white";
+// data1.style.width = "100%";
+
+// setInterval(function(){
+//     let width = data1.style.width;
+//    if (width === "100%"){
+//     data1.style.width = "10%";
+//    }else { //"30%"
+//     width = +width.replace("%",""); // "30%" => "30" => "30"
+//     data1.style.width = width + 10 + "%"; // 30 + 10 = 40 + "%" = "40"
+//    }
+
+// },1000);
+
+// let data = document.getElementById("my-para");
+// data.innerHTML = "<b>Pakistan Zindabad</b>";
+
+// setInterval(function(){
+//     let color1 =Math.floor(Math.random()*16777215).toString(16);;
+//     let color2 = Math.floor(Math.random()*16777215).toString(16);;
+//     console.log(color1, color2 );
+//     data.style.backgroundColor = "#" + color1;
+//     data.style.color = "#" + color2;
+// },1000);
+
