@@ -684,3 +684,90 @@
 // });
 
 // console.log(data1);
+
+
+/////////////  chapter : 06  //////////////////
+
+
+// Objects :
+// properties => es object ky undr kia kia khososiyat hai usy khty hai .
+// methods => es object ky jo jo kam hai wo esky methods hai. 
+
+// let person = {
+//     name: "Ishaq",
+//     cnic: 123456789,
+//     eyeColor: "blue",
+//     canSpeakEnglish: false,
+//     speak: function(sentence){ // object ky under koi bhi function store hai usy method khty hai.
+//         console.log(sentence + this.name);
+//     }
+// };
+// console.log(person.name);
+// let pass = person.name = "Amjad";
+// console.log(pass);
+// let del = delete person.name
+// console.log(del);
+// console.log(person);
+
+
+// let person2 = { // person2 = object
+//     name: "Nadir", // name: "Nadir", = properties   
+//     cnic: 123456789, // cnic = key
+//     eyeColor: "blue", // "black" = value
+//     canSpeakEnglish: false,
+//     speak: function(sentence){ // object ky under koi bhi function store hai usy method khty hai.
+//         console.log(sentence + this.name);
+//     }
+// };
+// // console.log(person);
+// person2.speak("hello! I am ")
+// console.log(person.name);
+
+// let student1 = {
+//     name: "Hamza",
+//     rollNo: 420,
+//     teacher: "Nadir",
+//     className: "JavaScript"
+// };
+
+// let student2 = {
+//     name: "Ahmed",
+//     rollNo: 421,
+//     teacher: "Ishaq",
+//     className: "CSS"
+// };
+
+// function provideStudent (name1, rollNo1, teacher1, className1){
+//     return {
+//         name: name1,
+//         rollNo: rollNo1,
+//         teacher: teacher1,
+//         className: className1
+//     }
+// };
+
+// let students = [
+//     provideStudent("Ahmed", 421, "Nadir", "CSS"),
+//     provideStudent("Ali", 422, "Ameen", "Javascript"),
+//     provideStudent("Hamza", 423, "Ishaq", "Node.JS")
+// ];
+
+// console.log(students);
+
+
+// let prevStudents = localStorage.getItem("students");
+// let students = prevStudents ? JSON.parse(prevStudents) : []; 
+// function provideStudent (){
+//     let std = {
+//          name: prompt("Enter your Name"),
+//          rollNo: +prompt("Enter your roll no"),
+//          teacher: prompt("Enter your teacher Name"),
+//          className: prompt("Enter your class Name")
+//     };
+//     students.push(std);
+//     console.log(students);
+//     let stringify = JSON.stringify(students);
+//     localStorage.setItem("students",stringify);
+// };
+
+// localStorage.setItem("name","Asif");
