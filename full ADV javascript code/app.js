@@ -876,3 +876,24 @@
 // sec.innerText = date.getSeconds();
 // ampmElment.innerText = amPm;
 // },1000);
+
+
+
+/////////////  chapter : 09  //////////////////
+
+// IIFE => Immediately involed function Experssions
+(async function(){
+    const response = await fetch("./receipes.json");
+    const recipes = await response.json();
+    // console.log(recipes);
+
+    const inputElem =  document.getElementById("searchInput");
+    const btnElem =  document.getElementById("searchBtn");
+
+    function search(){
+        const query = inputElem.Value;
+        console.log(query);
+    }
+
+    btnElem.addEventListener("click", search);
+})();
