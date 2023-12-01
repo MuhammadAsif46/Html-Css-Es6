@@ -827,3 +827,52 @@
 //     data.style.color = "#" + color2;
 // },1000);
 
+
+/////////////  chapter : 08  //////////////////
+
+
+// const date = new Date();
+
+// console.log(date.getDate());
+// const months = ["jan","feb","mar","apr","may","jun"];
+// console.log(months[date.getMonth()] + " , " + date.getMonth( ));
+// console.log(date.getFullYear());
+
+// console.log(date.getHours());
+// console.log(date.getMinutes());
+// console.log(date.getSeconds());
+
+// const doomsDay = new Date();
+// doomsDay.setDate(15);
+// doomsDay.setMonth(10);
+// doomsDay.setFullYear(2025);
+// doomsDay.setHours(0);
+// doomsDay.setMinutes(0);
+
+// const date = new Date();
+
+// // console.log(date.getTime() , doomsDay.getTime());
+
+// let diff = doomsDay.getTime() - date.getTime();
+// console.log((diff / (1000 * 60 * 60 * 24 * 365.25)).toFixed(1));
+
+// const hour = document.getElementById("hours");
+// const min = document.getElementById("minutes");
+// const sec = document.getElementById("seconds");
+// const ampmElment = document.getElementById("amPm");
+
+// setInterval(function () {
+//     const date = new Date();
+//     let hr = date.getHours();
+//     let amPm = "AM";
+//     if(hr > 11){
+//         amPm = "PM";
+//         if(hr > 12){
+//             hr -= 12;
+//         }
+//     }
+// hour.innerText = hr;
+// min.innerText = date.getMinutes();
+// sec.innerText = date.getSeconds();
+// ampmElment.innerText = amPm;
+// },1000);
