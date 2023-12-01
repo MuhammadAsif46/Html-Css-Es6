@@ -604,3 +604,83 @@
 // // Request attempt 
 // makeRequest();
 // makeRequest();
+
+
+/////////////  chapter : 05  //////////////////
+
+
+// Array 
+
+// let months = ["january", "february", "march", "April"];
+// // months[4] = "May"; // Not recomended
+
+// let user = prompt("array me value rakhun?");
+// if (user === "yes"){
+//     months.push("May");
+// }
+// console.log(months); 
+
+// let months = ["january", "february", "march", "April"];
+
+// months.shift(); // Removes 1st index
+// months.unshift("Jan"); // add value on 1st index
+// months.push("May"); // add value on last index
+// months.pop(); // Removes last index
+// months.length; // tells the quantity of values
+// months.splice(2,1, "jun", "july"); // Remove or replace value 
+// months.slice(); // provide a new copy of array
+
+// let newArr = months.slice(0,2);
+// console.log(months);
+// console.log(newArr);
+
+    // forEach() :
+// let arr = [1, 2, 3, 4, 5];
+
+// arr.forEach(function(val) {
+//     console.log(val);
+// })
+
+    // filter() :
+// let arr = [1, 2, 3, 4, 5, 8 ,2 , 10];
+
+// let filterArr =  arr.filter(function(val){
+//   return val % 2 === 0;
+//     if (val % 2 === 0){
+//         return true;
+//     }else {
+//         return false;
+//     }
+// });
+// console.log(filterArr,arr);
+
+    // Sort() :
+// let arr = [1, 9, 3, 6, 7, 2, 8, 5, 4, 10];
+
+// let sortedArr =  arr.sort(function(a, b){
+//     if (a > b){
+//         return 1;
+//     }else {
+//         return -1;
+//     }
+// });
+
+// console.log(sortedArr); 
+
+// reduce
+
+// let arr = [1, 9, 3, 6, 7, 2, 8, 5, 4, 10];
+
+// let total =  arr.reduce(function(prevValue, currValue){
+//     return prevValue + currValue;
+// },0);
+
+// console.log(total);
+
+// let data = ["Hello","Dear","Mohsin","Hii"];
+
+// let data1 = data.reduce(function (val1, val2){
+//     return val1 + " " + val2
+// });
+
+// console.log(data1);
