@@ -984,3 +984,79 @@
 //     const data3 =  await runAfter1Sec(data2);
 //     console.log(data3);
 // })();
+
+
+
+/////////////  chapter : 11  //////////////////
+
+
+// let data = "hello";
+// let data1 =  data.charAt(4);
+// console.log(data1);
+
+// const hello = "Hello, ";
+// console.log(hello.concat("Kevin", ". Have a nice day."));
+
+// const str = "To be, or not to be, that is the question.";
+// console.log(str.endsWith("question.")); // true
+// console.log(str.endsWith("to be")); // false
+// console.log(str.endsWith("to be",19)); // true
+
+// const str = "To be, or not to be, that is the question.";
+// console.log(str.includes("To be")); // true
+// console.log(str.includes("TO BE")); // false
+
+// const str = "Brave new world";
+// console.log(str.indexOf("w")); // 8
+// console.log(str.indexOf("new")); // 6
+// console.log(str.indexOf("o")); // 11
+// console.log(str.indexOf("r")); // 1
+// console.log(str.lastIndexOf("r")); // 12
+
+// const str = "Brave new world";
+// let str1 =  str.length;
+// console.log(str1);
+
+// const str = "Brave new world";
+// let str1 = str.repeat(1);
+// let str2 = str.repeat(2);
+// console.log(str1);
+// console.log(str2);
+
+// let data = "hello";
+// let data1 = data.replace("hello","world");
+// console.log(data1);
+
+// let data = "what is your name,what is your hobbies,what is your age";
+// let data1 = data.replaceAll("what","why");
+// console.log(data1);
+
+// const str = 'The quick brown fox jumps over the lazy dog.';
+// const strCopy = str.split(" ");//  1st letter, 2nd word , 3rd full array 
+// let str1 = str.length;
+// console.log(str1);
+// console.log(strCopy);
+
+// const str1 = 'Saturday night plans';
+// console.log(str1.startsWith('Sat'));
+// console.log(str1.startsWith('Sat',3));
+
+// const anyString = "Mozilla";
+// console.log(anyString.substring(2,3)); // 'M'
+// console.log(anyString.substring(2,7)); // 'M'
+
+// let data = "hello world";
+// let data1 = data.toLocaleLowerCase();
+// let data2 = data.toLowerCase();
+// console.log(data1);
+// console.log(data2);
+
+// let data = "hello world";
+// let data1 = data.toLocaleUpperCase();
+// let data2 = data.toUpperCase();
+// console.log(data1);
+// console.log(data2);
+
+// let d = 000123;
+// let d1 = d.toString();
+// console.log(d1);
