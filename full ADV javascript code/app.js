@@ -1060,3 +1060,152 @@
 // let d = 000123;
 // let d1 = d.toString();
 // console.log(d1);
+
+
+/////////////  chapter : 12  //////////////////
+
+
+// Arrow Functions :
+// bahir sy data lane ky liye bhi use hota hai.
+// arrow funtion apna koi new "scope" create nhi krta 
+// usi "scope" ko use krta hai jo apki main chal rahi hoti hai.
+
+// function add(x, y){ // Normal Function
+//     return x + y;
+// };
+
+// const subtract = (x, y) => { // Arrow Functions
+//     return x - y;
+// };
+
+// const multiply = (x, y) => x * y;
+
+// const round = num => Math.round(num);
+
+// let data = val => Math.random(val);
+
+// let data1 = (a, b) => a / b;
+
+// console.log(add(3, 5));
+// console.log(subtract(6, 2));
+// console.log(multiply(3, 4));
+// console.log(round(5.456));
+// console.log(data().toFixed(2));
+// console.log(data1(10, 5));
+
+// const obj = {
+//     name: "Saylani",
+//     print: function (){
+//         setTimeout(() => {
+//             console.log(this.name);
+//         },1000);
+        
+//     }
+// };
+
+// obj.print();
+
+// function add(x = 2, y = 4) { // Default Parameters 
+//     return x + y;
+// }
+// console.log(add());
+// console.log(add(3, 8));
+
+// const add1 = (x = 2, y = 2) => x + y ;
+// console.log(add1());
+// console.log(add1(5, 3));
+
+// function printAll(x, y , ...z){ // Rest Parameters 
+//     console.log(x +  y , z);
+// };
+
+// printAll(2, 3, 4, 4, 5, 6, 7, 8, 9);
+
+// PLUS : KRNA HAI KESE HOGA ???
+// let arr = [2, 4, 5, 6, 7, 8, 9];
+// let p = []
+// arr.forEach(arr => {
+//     p.push(arr);
+//     console.log(arr);
+// });
+
+// Short Syntax for objects
+
+// const firstName = "Nadir";
+// const lastName = "Bashir";
+
+// const obj = {
+//     firstName,
+//     lastName,
+//     printName () { // short keys
+//         console.log(this.firstName, this.lastName);
+//     }
+   
+// };
+// obj.printName();
+
+// Desturcturing : object
+// const obj = {
+//     firstName: "hello",
+//     lastName: "world",
+//     printName () { // short keys
+//         console.log(this.firstName, this.lastName);
+//     }
+   
+// };
+// const {firstName,lastName} = obj;
+// console.log(firstName);
+
+// Desturcturing : array
+// const arr1 = ["hello","world","user","hey"];
+// const [,d1,d2,d3] = arr1;
+// console.log(d3); 
+
+// Spread Operater :
+
+// const arr = ["Ishaq","Bhojani","Saylani"];
+
+// const newArr = ["Some Data" , ...arr , "Another Data"];
+// console.log(newArr);
+
+// const obj = {
+//     firstName: "hello",
+//     lastName: "world",   
+// };
+// const newObj = {...obj,hobby: "video Games",firstName: "ishaq"};
+// console.log(newObj);
+// console.log(obj);
+
+// OOPs => Object oriented programing : 
+// Classes :
+// Classes defination in Urdu => Object bna ky dena :
+// Classes defination in English => classes is a blue print of a object :
+
+// const obj1 = {
+//     name: "LED TV",
+//     price: 12000,
+// }  
+// const obj2 = {
+//     title: "samsung",
+//     amount: 14000,
+// }  
+
+// const Products = [obj1, obj2];
+
+// Products.forEach(p => console.log(p.name));
+
+
+// class Product {
+//     constructor (name, price, size){
+//         this.name = name;
+//         this.price = price;
+//         this.size = size;
+//     }
+// }
+// const Product1 = new Product ("LED TV",12000,"32 inch");
+// const Product2 = new Product ("Samsung ",14000,"48 inch");
+// const Products = [Product1 , Product2];
+
+//  Products.forEach(p => console.log(p.name));
+//  Products.forEach(p => console.log(p.price));
+//  Products.forEach(p => console.log(p.size));
