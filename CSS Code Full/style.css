@@ -1,0 +1,255 @@
+/* Introduction CSS chapter -> 01 */
+
+/* body{
+    background-color: black;
+}
+
+h1 {
+    color: green;
+}
+p {
+    color: white;
+}
+#p1 {
+    border: 3px solid white;
+}
+#p2 {
+    border: 3px solid yellow;
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* colors chapter -> 02 */
+
+/* body{
+    background-color: rgb(189, 151, 190);
+}
+h1 , .p3{
+    background-color: rgba(108, 145, 184, 0.652);
+    color: red;
+}
+#p1{
+    color: #9f0d16;
+}
+.p2 {
+    background-color: #000;
+    opacity: 0.5;
+    color: white;
+} */
+
+/* text chapter -> 03 */
+/* 
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    text-align: center;
+}
+.p1{
+    font-family: sans-serif;
+    font-size: 20px;   
+}
+.p2{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    line-height: 30px;
+    letter-spacing: 5px;
+    word-spacing: 5px;   
+}
+.p3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: #eee;
+    color: #666;
+    text-shadow: 1px 1px 0px #A1261A;
+}
+span{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:double;
+}
+
+/* a:hover {
+    color: deeppink;
+    text-decoration: none;} 
+
+a:focus {
+    background-color:yellow ;
+}
+
+h3{
+    background-image:url("random-pic.jpg");
+    text-indent: 20px;
+} */
+
+/* box chapter -> 04 */
+
+/* .box{ */
+    /* background-color: yellow; */
+    /* width: 400px; */             /* 01 */
+    /* min-width: 400px; */
+    /* max-width: 400px; */
+    /* height: 300px; */
+    /* min-height: 300px; */
+    /* max-height: 300px; */
+    /* height: 50px; */             /* 02 */
+    /* overflow: hidden; */
+    /* overflow-y: scroll; */
+    /* overflow-x: scroll; */
+    /* overflow: scroll; */         /* Short Hand Property*/
+    /* border-width: 1px; */        /* 03 */
+    /* border-style: solid; */
+    /* border-color: #000; */
+    /* border: 1px solid #000; */    /* Short Hand Property*/
+
+/* } */
+/* .box{
+    width: 100px;
+    height: 100px;
+    background-color: black; */
+    /* margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px; */
+    /* margin:10px 10px 10px 10px */    /** Short Hand Property **/
+    /* margin: 10px; */                  /** Short Hand Property * */
+/* } */
+
+/* .box{
+    border: 1px solid black;
+    height: 20px; */
+    /* height: 80px; */
+    /* padding: 10px; */                 /** Short Hand Property * */
+    /* box-shadow: 5px 5px 5px gray; */          /** Short Hand Property * */
+    /* border-radius: 10px;
+} */
+
+/** Display -> Inline/Block & Properties **/
+
+/* div{
+    background-color: black;
+    color: white; */
+    /* display: inline; */
+    /* display: inline-block;
+} */
+/* .d1{
+    height: 150px;
+} */
+
+/** Position -> Relative/Absolute/Fixed **/
+
+/* .parent{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 10px;
+}
+.child{
+    background-color: black;
+    color: white;
+    position:absolute;
+    padding: 10px;
+    top: 0;
+    right: 0;
+}
+.footer{
+    background-color: black;
+    color: white; 
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}  */
+
+/*** Flexbox ***/
+
+/* display : flex */     /* ===    parent py lagy ga    */ /* defult value => row   */
+
+/*   main excess => row  */
+/* justify-content : space-evenly */      /* ===  parent py lagy ga */  
+
+/* child property */
+/* width: 25%   ##   flex: 1,2,3  ##  order: -1,0,1,2,3 */    /* flex-direction: row */
+
+/* cross excess => column */
+/* align-items : flex-end */     /* === parent py lagy ga  */
+
+/* CENTER PROPERTY */
+/* justify-content: center  && align-items: center  */
+
+/* flex-direction: column */            /* ===  parent py lagy ga */ 
+/* flex-direction: row-reverse */       /* ===  parent py lagy ga */ 
+
+/* child property === jb align itmes hoga parent py tb child py lagy gi ye property */
+/* align-self : flex-end  */
+
+/* child py width dena zarori hai === tab ap flex-wrap: wrap krskty ho */
+/* ---------------- */
+/* flex-wrap: nowrap == default value */   /* ===  parent py lagy ga */
+
+/* flex-flow ==  ek sath 2 property run krta hai */
+/* flex-flow : column wrap */       /* ===  parent py lagy ga */
+
+/* spacing khatm krta hai */
+/* align-content: flex-start */     /* ===  parent py lagy ga */
+
+/**** flexbox ***/
+/* ------------------- */
+/* parent properties */
+
+/* display: flex */
+/* flex-direction: row | row-reverse | column | column-reverse */
+/* flex-wrap: nowrap | wrap | wrap-reverse */           /*--- line break krta hai screen ky size py ---*/
+/* flex-flow: column wrap */                /*--- flex-direction + flex-wrap = flex-flow ( short-hand-property hai ) ---*/
+/* justify-content: center | flex-start | flex-end | space-between | space-around | space-evenly | */
+/* align-items: flex-start | flex-end | center | baseline | start | end */
+/* align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end */
+/* gap: row | row-gap | column-gap */
+
+/* child properties */
+
+/* width: 25% */
+/* order: -2, -1, 0, 1, 2, 3, 4 */
+/* flex-grow: 1, 2, 3, 4 */
+/* flex-shirk: 1, 2, 3, 4 */
+/* flex: 1, 2, 3, 4, 5 */           /* flex-short-hand-property */
+/* align-self: auto | flex-start | flex-end | center | baseline | stretch; */
+ 
+
+/*** Media Query ***/
+
+/* @media only screen and (min-width: 250px){     // esky upper jo bhi sb py apply krdo //
+     .main{
+        background-color: red;
+    }
+}
+@media only screen and (max-width: 480px){     // esky neche jo bhi sb py apply krdo  //
+    .main{
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 800px){      // esky neche jo bhi sb py apply krdo //
+    .main{
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 1024px){    // esky neche jo bhi sb py apply krdo //
+    .main{
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 1024px){     // esky upper jo bhi sb py apply krdo //
+    .main{
+        background-color: red;
+    }
+} */
+
+
+/* 24 level */
+/* flex-flow: row-reverse wrap;
+justify-content: flex-end; */
+
+
