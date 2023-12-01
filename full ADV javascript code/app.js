@@ -897,3 +897,90 @@
 
     btnElem.addEventListener("click", search);
 })();
+
+
+/////////////  chapter : 10  //////////////////
+
+
+// Synchronous Example :
+
+// line by line chalta hai .jab tak pehli line chal na
+// jaye 2sri line ko nhi chalata.
+
+// alert("");
+
+// for(let i = 0; i < 2000; i++){
+//     console.log(i);
+// }
+// console.log("hello");
+
+// Asynchronous Example : 
+// ye bhi line by line chalta hai lekin kbhi agr pehli
+// line chalny me dair hojaye tu dusri line chal deta hai.
+
+// function runAfterSec(){
+//     setTimeout(function(){
+//         console.log("done");
+//     },2000);
+// };
+// runAfterSec();
+// console.log("hello pakistan");
+
+// Callbacks =>  is a function.
+// koi bhi esa function jisko hum us wqt chalaty hai jab wo complete hojata hai.
+
+// function runAfter2Sec(cb){
+//         setTimeout(function(){
+//         let data = 5 + 123;
+//         cb(data);
+//         },2000);
+//     };
+//     function toBeExecutedWhenDone(dataToGet){
+//         console.log("yes It's done", dataToGet);
+//     }
+
+//     runAfter2Sec(toBeExecutedWhenDone);
+//     console.log("hello pakistan");
+
+// Promises : => .then sirf isky undr he chalta hai.
+// resolve : => .then
+// reject : => .catch
+
+// function runAfter1Sec(val){
+//     return new Promise(function(resolve){
+//         setTimeout(function(){
+//             let data = 5 + val;
+//             resolve(data);
+//         },1000);
+//     } )
+// };
+
+// runAfter1Sec(5)
+// .then(function(data){
+//     return runAfter1Sec(data);
+// }).then(function(data){
+//     return runAfter1Sec(data);
+// }).then(function(data){
+//     return runAfter1Sec(data);
+// }).then(function(data){
+//     console.log(data);
+// });
+
+//async / await : 
+// short key for return promise async/await .
+
+// function runAfter1Sec(val){
+//     return new Promise(function(resolve){
+//         setTimeout(function(){
+//             let data = 5 + val;
+//             resolve(data);
+//         },1000);
+//     });
+// };
+// (async function(){
+//     const data =  await runAfter1Sec(5);
+//     const data1 =  await runAfter1Sec(data);
+//     const data2=  await runAfter1Sec(data1);
+//     const data3 =  await runAfter1Sec(data2);
+//     console.log(data3);
+// })();
