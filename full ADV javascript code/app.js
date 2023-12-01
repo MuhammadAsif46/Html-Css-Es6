@@ -433,3 +433,67 @@
 
 // let num1 = 5 ** 3; // power or 5 cube .
 // console.log(num1);
+
+
+/////////////  chapter : 03  //////////////////
+
+// Comparsion Operators
+
+// == , :-> only define value
+// === , :-> both define type and value
+// console.log(5 === "5");
+// != , !== 
+// console.log(5 != 6);
+// < , > , <= , >= 
+// let user1 = 7;
+// let user2 = 23;
+// console.log(user2 <= 18);
+
+// IF & ELSE IF OR ELSE :
+
+// let userAge = +prompt("Enter your age");
+
+// if (userAge >= 18) {
+//     console.log("you can apply for NIC");
+// }else {
+//     console.log("you are not eligible ");
+// }
+
+// If & Else Game :
+
+// let userFavNum = +prompt("Enter a number");
+// let computerNum = Math.round(Math.random() * 10);
+
+// if (userFavNum === computerNum) {
+//     console.log("you win! " + computerNum);
+// } else if (userFavNum - 1 === computerNum || userFavNum + 1 === computerNum ) {
+//     console.log("you are so close : " + computerNum);
+// } else {
+//     console.log("you lose! " + computerNum);
+// }
+
+// SECOND GAME EVEN OR ODD USER-INPUT :
+
+// let userInput = prompt("Even or Odd");
+// let computerNum = Math.round(Math.random() * 10);
+
+// if (computerNum % 2 === 0 && userInput === "even") {
+//     console.log("you win! " + computerNum + " is even number");
+// } else if (computerNum % 2 !== 0 && userInput === "odd") {
+//     console.log("you win! " + computerNum + " is odd number");
+// } else {
+//     console.log("you lose! " + computerNum);
+// }
+
+// Initialisation
+// Condition
+// Increment
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log("hello " + i);
+// }
+
+// let table = +prompt("enter a number");
+// for (let i = 1; i <= 10; i++) {
+//     console.log( table + " X " + i + " = " + i * table);
+// }
