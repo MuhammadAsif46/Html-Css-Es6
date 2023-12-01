@@ -497,3 +497,110 @@
 // for (let i = 1; i <= 10; i++) {
 //     console.log( table + " X " + i + " = " + i * table);
 // }
+
+
+
+/////////////  chapter : 04  //////////////////
+
+
+// Functions : 
+// Normal function memory main apna ek alag scope create krty hai.
+
+// alert, parseInt, Math.round = built-in functions
+// greet = custom function
+
+// function greet () {
+//     console.log("hello students");
+// }
+// greet();
+
+// function greet (studentName) { // Parameter
+//     console.log("hello! " + studentName);
+// }
+// greet("Asif"); // Argument 
+// greet("Farhan"); // Argument 
+// greet("Ahmed"); // Argument
+
+// function employee(fileNo) {
+//     return "working on file no ! " + fileNo ;
+// }
+// let result =  employee(8);
+// console.log(result);
+
+// function add (num1, num2) {
+//     return num1 + num2 ; 
+// }
+// let res = add(2,8);
+// console.log(res);
+// document.write(res);
+
+// Recursion:
+
+// function writeData (data, times)  {
+//     document.write(data);
+//     if (times > 0) {
+//         writeData(data,times - 1);
+//     }
+// }
+// writeData("hello! ", 5);
+
+// function factorial (num) {
+//     if (num > 1) {
+//         return num * factorial(num - 1);
+//     }
+//     return 1;
+// }
+// console.log(factorial(5)); // 5 * 4 * 3 * 2 * 1
+
+// closures => Scopes
+// Global Scope => whole file
+// Local Scope => inside function
+
+// let abc = 7; // Global scope
+// function print () {
+//     let def = 14; // local scope
+//     console.log(def);
+// }
+
+// console.log(abc);
+
+// print();
+
+
+// let abc = 7; // Global scope
+// function print (def) {
+//     // def = local scope
+//     return function (ghi) { // anonyums function
+//         console.log(def + ghi );
+//     }
+// }
+
+// let innerFunction = print(7);
+// let innerFunction2 = print(8);
+// innerFunction(2);
+// innerFunction2(4);
+
+// function print1 (def){
+//     return function (ghi) {
+//          console.log(def + ghi);
+//     }
+// }
+// let innerFunction3 = print1(2);
+// innerFunction3(3);
+// let innerFunction4 = print1(5);
+// innerFunction4(5);
+
+
+// function saveUrl (url) {
+//     return function () {
+//         fetch(url)
+//       .then(response => response.json())
+//       .then(json => console.log(json))
+//     }
+// }
+// // SAVE URL 
+// let makeRequest = saveUrl("https://jsonplaceholder.typicode.com/todos/1");
+
+// // Request attempt 
+// makeRequest();
+// makeRequest();
