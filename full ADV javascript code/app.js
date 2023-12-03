@@ -1213,36 +1213,3 @@
 
 
 
-//////////////////////////////// """ ( GH ) """ ///////////////////////////////////////
-/////////////  chapter : 01-05  //////////////////
-
-
-// # : 01
-// alert ("hello world");
-
-// # : 02
-// let data = "ghous ahmed";
-// alert(data);
-
-// let data = "ghous ahmed";
-// data = "ishaq bhojani";
-// alert(data);
-
-// # : 03
-// let num = 123;
-// alert (num);
-
-// let num = 10;
-// num = num - 4
-// // num += 6;
-// alert (num);
-
-// # : 05
-// let num = 10;
-// let num1 = 7;
-// // let total = num + num1;
-// // let total = num - num1;
-// // let total = num * num1;
-// // let total = num / num1;
-// let total = num % num1;
-// console.log(total);
