@@ -881,22 +881,23 @@
 
 /////////////  chapter : 09  //////////////////
 
-// IIFE => Immediately involed function Experssions
-(async function(){
-    const response = await fetch("./receipes.json");
-    const recipes = await response.json();
-    // console.log(recipes);
+// IIFE => Immediately involed function Experssions:-
 
-    const inputElem =  document.getElementById("searchInput");
-    const btnElem =  document.getElementById("searchBtn");
+// (async function(){
+//     const response = await fetch("./receipes.json");
+//     const recipes = await response.json();
+//     // console.log(recipes);
 
-    function search(){
-        const query = inputElem.Value;
-        console.log(query);
-    }
+//     const inputElem =  document.getElementById("searchInput");
+//     const btnElem =  document.getElementById("searchBtn");
 
-    btnElem.addEventListener("click", search);
-})();
+//     function search(){
+//         const query = inputElem.Value;
+//         console.log(query);
+//     }
+
+//     btnElem.addEventListener("click", search);
+// })();
 
 
 /////////////  chapter : 10  //////////////////
@@ -1209,3 +1210,39 @@
 //  Products.forEach(p => console.log(p.name));
 //  Products.forEach(p => console.log(p.price));
 //  Products.forEach(p => console.log(p.size));
+
+
+
+//////////////////////////////// """ ( GH ) """ ///////////////////////////////////////
+/////////////  chapter : 01-05  //////////////////
+
+
+// # : 01
+// alert ("hello world");
+
+// # : 02
+// let data = "ghous ahmed";
+// alert(data);
+
+// let data = "ghous ahmed";
+// data = "ishaq bhojani";
+// alert(data);
+
+// # : 03
+// let num = 123;
+// alert (num);
+
+// let num = 10;
+// num = num - 4
+// // num += 6;
+// alert (num);
+
+// # : 05
+// let num = 10;
+// let num1 = 7;
+// // let total = num + num1;
+// // let total = num - num1;
+// // let total = num * num1;
+// // let total = num / num1;
+// let total = num % num1;
+// console.log(total);
