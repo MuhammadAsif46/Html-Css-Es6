@@ -1708,3 +1708,61 @@
 //   }
 // }
 // console.log(fullNames);
+
+
+/////////////  chapter : 21-25  //////////////////
+
+// # :-> 21
+
+// let str = "asif ahmed";
+// let upperCase = str.toUpperCase();
+// console.log(upperCase);
+// let lowerCase = upperCase.toLowerCase();
+// console.log(lowerCase);
+
+// let str = "asif";
+// let capitalize = str[0].toUpperCase()
+// console.log(capitalize);
+// // let result = capitalize + str.slice(1);
+// let result = capitalize + str.slice(-3);
+// console.log(result);
+
+// # NEW EXAMPLE TOPIC:
+// let str = prompt("enter your name");
+// var words = str.split(" ");
+// let arr = [];
+
+// for(var i = 0; i < words.length; i++){
+//     var result = words[i][0].toUpperCase() + words[i].slice(1);
+//     arr.push(result);
+// }
+// console.log(arr.join(" "));
+
+// # :-> 22
+
+// let str = "ghous asif ahmed";
+// for(var i = 0; i < str.length; i++){
+//     if(str.slice(i,i + 4) === "asif"){
+//         console.log("nO allow");
+//         break
+//     }
+// }
+
+// # :-> 23
+
+// let str = "karachi sy lahore tak";
+// // console.log(str.indexOf("a"));
+// console.log(str.lastIndexOf("a"));
+
+// # :-> 24
+
+// let str = "Hello, my name is ghous ahmed";
+// // let data =str.charAt(str.length - 1)
+// let data = str.charAt(1)
+// console.log(data);
+
+// # :-> 25
+
+// let str = "Hello, my name is ghous ahmed";
+// // console.log(str.replace("ghous","ali"));
+// console.log(str.replaceAll("ghous","ali"));
