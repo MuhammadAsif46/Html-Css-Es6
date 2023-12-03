@@ -1590,3 +1590,121 @@
 // console.log(students[1][0]);
 // console.log(students[2][0]);
 // console.log(students[1][1][0]);
+
+
+
+/////////////  chapter : 16-20  //////////////////
+
+// # : 16 , 17
+// let fruits = ["Apple","Mango","Banana","Orange"];
+
+// fruits.pop();
+// fruits.push("Kiwi");
+// fruits.shift();
+// fruits.unshift("Grapes");
+// fruits.splice(1,1,"Papaya");
+// fruits.splice(0,0,"aamm");
+// fruits.splice(4,1,"jaman")
+// console.log(fruits);
+
+// let copy = fruits.slice(0,3);
+// console.log(copy);
+
+// Topic : -> SORT
+// let arr = [9,4,5,7,2,8,3,1];
+// arr.sort();
+// console.log(arr);
+
+// Topic : -> JOIN => return string
+// let arr = ["ghous","ahmed","khan","ali"]
+
+// console.log(arr.join(" "));
+
+// Topic : -> SPLIT => return array
+// let str = "ghous ahmed"
+// console.log(str.split(" "));
+
+// Topic : -> REVERSE =>
+// let arr = ["ghous","ahmed","ali","khan"];
+// console.log(arr.reverse());
+
+// let arr = ["ghous","ahmed","ali","khan"];
+// console.log(arr.reverse().join(" "));
+
+// Topic : -> TRIM => first or last sy space khatm krta hai:
+
+// "hello world".trim();
+// 'hello world'
+// "hello world   ".trim();
+// 'hello world'
+// "    hello world   ".trim();
+// 'hello world'
+// "    hello world   "
+// '    hello world   ';
+
+// # :-> 18 / 19
+
+// let cities = ["karachi","lahore","multan","pindi"];
+// let userCity = prompt("Enter Your City Name");
+// let flag = false;
+// for(let i = 0; i < cities.length; i++){
+//     if(userCity === cities[i]){
+//         flag = true;
+//         break;
+//     }
+// }
+// if(flag === true ){
+//     alert("true");
+// }else {
+//     alert("false")
+// }
+
+// let str = prompt("Enter Your Palinderome word");
+
+// let strings =  str.split("").reverse().join("");
+// console.log(strings);
+
+// if (str === strings){
+//     console.log("it's a palindrome word");
+// }else{
+//     console.log("it's not a palindrome word");
+// }
+
+// let str = prompt("Enter Your Word");
+// let reverseStr = "";
+// for (let i = str.length - 1; i >= 0; i--) {
+//     reverseStr += str[i]
+// }
+// if (str === reverseStr) {
+//     console.log("it's a palindrome word : " + reverseStr);
+// } else {
+//     console.log("it's not a palindrome word : " + reverseStr);
+// }
+
+// let countries = ["pakistan","america","china","japan"];
+// let UserCountry = prompt("Enter your country");
+// let flag = false;
+
+// for(let i = 0; i < countries.length; i++){
+//     if(UserCountry === countries[i]){
+//         flag = true;
+//         break;
+//     }
+// }
+//     if (flag === true){
+//     console.log("welcome");
+// }else{
+//     console.log("no entry");
+// }
+
+// # :-> 20
+
+// var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+// var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+// var fullNames = [];
+// for (var i = 0; i < firstNames.length; i++) {
+//   for (var j = 0; j < lastNames.length; j++) {
+//     fullNames.push(firstNames[i] + lastNames[j]);
+//   }
+// }
+// console.log(fullNames);
