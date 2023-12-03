@@ -23,10 +23,32 @@
     display: none;
 } */
 
-.tab {
+/* .tab {
     border: 1px solid black;
 }
 .row {
     border: 1px solid black; 
+} */
+
+
+/* GA Code Styles  */
+
+/* .car{
+    width: 300px;
+    height: 300px;
+    object-fit: contain ;
 }
 
+.big-car{   
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.zoom-car{
+    zoom: 2;
+}
+
+.main{
+    color: red;
+} */
