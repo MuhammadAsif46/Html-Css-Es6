@@ -1710,6 +1710,7 @@
 // console.log(fullNames);
 
 
+
 /////////////  chapter : 21-25  //////////////////
 
 // # :-> 21
@@ -1766,3 +1767,65 @@
 // let str = "Hello, my name is ghous ahmed";
 // // console.log(str.replace("ghous","ali"));
 // console.log(str.replaceAll("ghous","ali"));
+
+
+
+/////////////  chapter : 26-30  //////////////////
+
+
+// # :-> 26
+
+// let num = Math.round(2.49);
+// let num = Math.round(2.5);
+// let num1 = Math.ceil(2.5);
+// let num2 = Math.floor(2.5);
+// console.log(num);
+// console.log(num1);
+// console.log(num2);
+
+// # :-> 27
+// let num = Math.random();
+// let num = Math.random()*10;
+// let num = Math.round(Math.random()*10);
+// console.log(num);
+// let num = Math.random()*10;
+// console.log(Math.round(num));
+
+// # :-> 28
+// "123"
+// '123'
+// Number("123")
+// 123
+// +("123")
+// 123
+// parseInt("123")
+// 123
+// parseFloat("1.2344")
+// 1.2344
+// parseInt("1.2344")
+// 1
+
+// # :-> 29
+
+// let num = 123;
+// console.log(num.toString());
+// let num1 = 123;
+// undefined
+// num1.toString()
+// '123'
+// num1.toString()
+// '123'
+
+// # :-> 30
+
+// let number = Math.random();
+// number
+// 0.4908765070955621
+// number.toFixed(2)
+// '0.49'
+// number.toFixed(3)
+// '0.491'
+// number.toFixed(4)
+// '0.4909'
+// number.toFixed(5)
+// '0.49088'
