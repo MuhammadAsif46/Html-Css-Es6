@@ -2038,3 +2038,109 @@
 //   }
 //   document.getElementById("city").value = cityName;
 // }
+
+
+/////////////  chapter : 51-67  //////////////////
+
+// # :-> 51
+
+// var text = document.getElementById("text");
+// var btn = document.getElementById("btn");
+
+// var lessText = "";
+
+// function abc (){
+// var fullText =  "Voluptatum, animi voluptatibus. Vero omnis dignissimos, iusto asperiores voluptate cumque, id accusantium optio, sunt nesciunt sit delectus placeat maiores necessitatibus porro vitae"
+// if(lessText){
+//     text.innerHTML = lessText;
+//     btn.innerHTML = "See more";
+//     lessText = ""
+// }else{
+//     lessText = text.innerHTML;
+//     text.innerHTML = fullText;
+//     btn.innerHTML = "See less"
+// }
+// }
+
+// # :-> 52
+
+// function makeBig(){
+//     var image = document.getElementById("car");
+//         image.className = "big-car";
+//         console.log(image);
+// }
+
+// var zoom = false;
+// function zoomImage(){
+//     var image = document.getElementById("car");
+//     if(zoom){
+//         image.className = "car"
+//         zoom = false;
+//     } else {
+//         image.className = "zoom-car"
+//         zoom = true;
+//     }
+// }
+
+// # :-> 53
+// # :-> 54
+
+// # :-> 55
+
+// document.getElementById("pic99").style.cssFloat = "left";
+// document.getElementById("div9").style.visibility = "hidden";
+// document.getElementById("mainPic").style.margin = "0 10px 0 10px;";
+
+// # :-> 56
+
+// var par = document.getElementsByTagName("p");
+// var textInMiddleParagraph = par[1].innerHTML;
+// par[1].innerHTML = "This SUV is too big.";
+
+// var pics = document.getElementsByTagName("img");
+// var divs = document.getElementsByTagName("div");
+
+// # :-> 57
+
+
+// var e = document.getElementByID("rules");
+// var paragraphs = e.getElementsByTagName("p");
+
+// var r1 = document.getElementById("row1").style.backgroundColor = "red";
+// var r2 = document.getElementById("row2").style.backgroundColor = "orange";
+// var r3 = document.getElementById("row3").style.backgroundColor = "green";
+// var r4 = document.getElementById("row4").style.backgroundColor = "blue";
+// var row = r.getElementsByTagName("td");
+// for (var i = 0; i < row.length; i++) {
+//     row[i].style.backgroundColor = "pink";
+// }
+
+// # :-> 58
+// # :-> 59
+// # :-> 60
+
+// var div1 = document.getElementById("div1");
+// var para = div1.getElementsByTagName("p");
+// var content = para[0].innerHTML;
+// console.log(content);
+
+// # :-> 61
+// # :-> 62
+// # :-> 63
+// # :-> 64
+// # :-> 65
+
+// var div = document.getElementById("div1");
+// var p = div.getElementsByTagName("p");
+// var para = p[0].getAttribute("class");
+// // var para = p[0].setAttribute("class","main");
+
+// # :-> 66
+// # :-> 67
+
+// var div = document.getElementById("div1");
+// var p = document.createElement("p")
+// div.appendChild(p);
+// var pText = document.createTextNode("hello world");
+// p.appendChild(pText);
+// var cls = p.setAttribute("class","main");
