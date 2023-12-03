@@ -1887,3 +1887,74 @@
 // }
 // foo();
 // foo();
+
+
+
+/////////////  chapter : 36-40  //////////////////
+
+// # :-> 36
+
+// function foo(id,title){
+//    console.log(id,title);
+// }
+// foo(2,"hello");
+// foo(3,"fello");
+
+// # :-> 37
+
+// function abc(x, y){
+//     return x + y ;
+// }
+// let res = abc(2,3);
+// let res1 = abc(4,3);
+// console.log(res , res1);
+// console.log(res + res1);
+
+// # :-> 38
+
+// var abc = 10; // global variable :
+
+// function demo(){
+//     console.log(abc);
+//     var abc = 20; // local variable :
+// }
+// console.log(abc);
+// demo();
+
+// # :-> 39
+
+// let days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+// let days = prompt("Enter a day");
+
+// switch (days) {
+//     case "sun":
+//         alert("this index no is : 0")
+//         break;
+//     case "mon":
+//         alert("this index no is : 1")
+//         break;
+//     case "fri":
+//         alert("this index no is : 5")
+//         break;
+//     default:
+//         alert("wrong input!")
+// }
+
+// switch(days){
+//     case "sat":
+//         alert("01");
+//         break;
+//     case "sun":
+//         alert("02");
+//         break;
+//     case "mon":
+//         alert("03");
+//         break;
+//     default :
+//         alert("wrong!");
+// }
+
+// # :-> 40
+
+//  default :
+//  alert("wrong input!");
