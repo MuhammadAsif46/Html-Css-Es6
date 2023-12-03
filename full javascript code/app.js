@@ -1829,3 +1829,61 @@
 // '0.4909'
 // number.toFixed(5)
 // '0.49088'
+
+
+
+/////////////  chapter : 31-35  //////////////////
+
+// # :-> 31
+
+// let today = new Date();
+// console.log(today.getDay());
+// let today = new Date();
+// let days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
+// console.log(days[today.getDay()]);
+
+// # :-> 32
+
+// let today = new Date();
+// let days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
+// console.log(days[today.getDay()]);
+// console.log(today.getMonth());
+// console.log(today.getDate());
+// console.log(today.getFullYear());
+// console.log(today.getHours());
+// console.log(today.getMinutes());
+// console.log(today.getSeconds());
+// console.log(today.getMilliseconds());
+
+// # :-> 33
+
+// let date = new Date("26 jun, 2034");
+// console.log(date);
+
+// let date = new Date("26 jun, 2034");
+// let date1 = new Date();
+
+// let total = date.getTime()-date1.getTime()
+// console.log(total / (1000 * 60 * 60 * 24 ));
+
+// # :-> 34
+
+// let date = new Date();
+// console.log(date.setDate(12));
+// console.log(date.setFullYear(2000));
+// console.log(date.setMonth(3));
+// console.log(date.setHours(11));
+// console.log(date.setMinutes(25));
+// console.log(date.setSeconds(55));
+
+// # :-> 35
+
+// let d = "hello world";
+
+// function foo(){
+//     var e = "user";
+//     // console.log(d);
+//     console.log(e);
+// }
+// foo();
+// foo();
