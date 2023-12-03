@@ -1421,3 +1421,58 @@
 // // let total = num / num1;
 // let total = num % num1;
 // console.log(total);
+
+
+/////////////  chapter : 06-10  //////////////////
+
+// # : 06
+// let num = 5;
+// num++;
+// num--
+// --num
+// ++num
+// console.log(num);
+
+// # : 07
+// let num = 5
+// let num2 = 6
+// let num3 = 7
+// let num4 = 9
+// let sum = (num - num2) + (num3 + num4);
+// console.log(sum);
+
+// # : 08
+// let name1 = "hello ";
+// let name2 = "world ";
+// let name3 = "users";
+// let data = name1 + name2 + name3;
+// console.log(data);
+
+// # : 09
+// let num = +prompt("enter a number");
+// console.log(num);
+// let num = prompt("enter your PhoneNumber","+92");
+// console.log(num);
+// let num1 = +prompt("enter a num 1");
+// let num2 = +prompt("enter a num 2");
+// console.log(num1 + num2);
+
+// # : 10
+// let num1 = +prompt("Enter a number 1") ;
+// let opt = prompt("Enter a opertor") ;
+// let num2 = +prompt("Enter a number 2") ;
+// let result ;
+
+// if (opt === "+"){
+//     result = num1 + num2;
+// }
+// if (opt === "-"){
+//     result = num1 - num2;
+// }
+// if (opt === "*"){
+//     result = num1 * num2;
+// }
+// if (opt === "/"){
+//     result = num1 / num2;
+// }
+// console.log(result);
