@@ -1476,3 +1476,117 @@
 //     result = num1 / num2;
 // }
 // console.log(result);
+
+
+/////////////  chapter : 11-15  //////////////////
+
+// # : 11
+// let salary = 1000;
+// let bonus = 500;
+// let firstTime = 600;
+// let secondTime = 400;
+
+// if(salary >= firstTime + secondTime){
+//     alert("malegi..")
+// }
+
+// if(salary <= firstTime + secondTime){
+//     alert(" nahi malegi..")
+// }
+
+// if (salary + bonus === firstTime + secondTime){
+//     alert ("sorry nhi milskti...")
+// }
+// if (salary + bonus !== firstTime + secondTime){
+//     alert ("ok mil jayegi..")
+// }
+
+// # : 12
+// let food = prompt("Enter Your Fav Desh");
+// if (food === "biryani"){
+//     console.log("good");
+// }else if (food === "burger"){
+//     console.log("good hai");
+// }else if (food === "fries"){
+//     console.log("good hai bhai");
+// }else if (food === "lays"){
+//     console.log("bsss ab tu liya bhai");
+// }else{
+//     console.log("ghr aja bhai tuu...");
+// }
+
+// # : 12
+
+// let food = prompt("Enter Your Fav Desh");
+// // let addItem = prompt("Enter a additem");
+
+// if (food === "biryani"){
+//     let addItem = prompt("Enter a additem");
+//     if(addItem === "raita"){
+//         console.log("ye bhi lyaoo..");
+//     }else{
+//         console.log("sirf " + food + " he ly aoo..");
+//     }
+//     console.log("good");
+// }else if (food === "burger"){
+//     console.log("good hai");
+// }else if (food === "fries"){
+//     console.log("good hai bhai");
+// }else if (food === "lays"){
+//     console.log("bsss ab tu liya bhai");
+// }else{
+//     console.log("ghr aja bhai tuu...");
+// }
+
+// # : 13
+
+// let employee = +prompt("Enter Your Age");
+// let gender = prompt("Enter your gender");
+
+// if (employee > 20 && employee < 40 && gender === "male"){
+//     console.log("Your Are Selected");
+// }else{
+//     console.log("your entry now allow");
+// }
+
+// let items = prompt("Enter item");
+// let coldItem = prompt("enter cold Item");
+
+// if (items === "bread" || items === "roti" && coldItem === "milk"){
+//     console.log("good hai..");
+// }else{
+//     console.log("rehne doo..");
+// }
+
+// # : 14
+
+// let skillsReq = "html/css";
+// let eduReq = "bba";
+// let cityReq = "karachi";
+// let skills = prompt("Enter Your Skills");
+// let edu = prompt("Enter Your Edu");
+// let city = prompt("Enter Your City");
+
+// if(skills === skillsReq){
+//     if(edu === eduReq){
+//         if(city === cityReq){
+//             console.log("app select hogaye ho..");
+//         }else{
+//             console.log("ye city allow nhi hai");
+//         }
+//     }else{
+//         console.log("ye eduction allow nhi hai..");
+//     }
+// }else{
+//     console.log("ye skills allow nhi hai");
+// }
+
+// # : 15
+// let students = ["ghous","ahmed","raza","ali","khan"];
+// console.log(students.length);
+
+// let students = [["ghous","ahmed"],["raza",["ali"]],["khan"]];
+// console.log(students[0][1]);
+// console.log(students[1][0]);
+// console.log(students[2][0]);
+// console.log(students[1][1][0]);
