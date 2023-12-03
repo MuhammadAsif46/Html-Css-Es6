@@ -1958,3 +1958,83 @@
 
 //  default :
 //  alert("wrong input!");
+
+
+
+/////////////  chapter : 41-50  //////////////////
+
+// # :-> 41
+
+// var i = 0;
+// while (i <= 3) {
+//   alert(i);
+//   i++;
+// }
+
+// # :-> 42
+
+// var i = 0;
+// do{
+//     alert(i);
+//     i++;
+// }
+// while(i <= 3)
+
+// # :-> 43
+
+"script ka tag kha or kese use krty hai wo btaya gaya hai es chaptre me";
+
+// # :-> 44
+
+"Commenting btaya gaya hai is chapter me";
+// // // // // // // // //
+
+// # :-> 45
+
+// "<a href="#" onClick="alert('Hi');">Click</a>"
+
+// # :-> 46
+
+// <input type="button" value="Click" onClick="alert('Hello world!');">
+
+// <img src="https://picsum.photos/200/300" onClick="alert('Hi');"></img>
+
+// # :-> 47
+
+//  <img src="before-pic.jpg" onMouseover="src='after-pic.jpg'">
+//  <a href="index.html" onMouseover="this.style.color='green';">Home Page</a>
+
+// # :-> 48
+
+// Email:<br>
+// <input type="text" size="30" onFocus="this.style.backgroundColor='yellow';"></input>
+
+// # :-> 49
+
+// let input = document.getElementById("text-input");
+// function abc (){
+
+//     if(input.value.trim() === ""){
+//         alert("Enter Input Field");
+//     }else {
+//         console.log(input.value);
+//     }
+// }
+
+// # :-> 50
+
+// function fillCity() {
+//   var cityName;
+//   var zipEntered = document.getElementById("zip").value;
+//   switch (zipEntered) {
+//     case "60608":
+//       cityName = "Chicago";
+//       break;
+//     case "68114":
+//       cityName = "Omaha";
+//       break;
+//     case "53212":
+//       cityName = "Milwaukee";
+//   }
+//   document.getElementById("city").value = cityName;
+// }
